@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "콘텐츠 차단기",
+  "version": "1.0",
+  "description": "시간 낭비 콘텐츠를 차단하는 크롬 확장 프로그램입니다.",
+  "permissions": [
+    "tabs",
+    "https://www.youtube.com/*",
+    "https://www.youtube.com/shorts/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
